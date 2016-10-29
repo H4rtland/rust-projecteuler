@@ -1,7 +1,5 @@
-fn problem_1() {
-    println!("Hello, world!");
-}
+mod problem_1;
 
 fn main() {
-    problem_1();
+    problem_1::problem_1();
 }

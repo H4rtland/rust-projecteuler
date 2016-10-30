@@ -8,13 +8,13 @@ pub fn problem_10() {
         numbers[i as usize] = false;
         i += 2;
     }
-    let mut i: i32 = 3;
+    let mut i: i64 = 3;
     while i < 2000000 {
         if numbers[i as usize] {
-            let mut j: i64 = (i as i64)*(i as i64);
+            let mut j = (i)*(i);
             while j < 2000000 {
                 numbers[j as usize] = false;
-                j += i as i64;
+                j += i;
             }
         }
         i += 2;

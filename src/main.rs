@@ -1,11 +1,11 @@
 extern crate time;
 use time::PreciseTime;
 
-mod problem_6;
+mod problem_7;
 
 fn main() {
     let start_time = PreciseTime::now();
-    problem_6::problem_6();
+    problem_7::problem_7();
     let end_time = PreciseTime::now();
     println!("Execution took {} seconds", start_time.to(end_time))
 }

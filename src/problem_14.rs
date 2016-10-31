@@ -1,6 +1,6 @@
 fn next(i: i64) -> i64 {
     match i%2 == 0 {
-        true => i/2,
+        true  => i/2,
         false => 3*i + 1
     }
 }

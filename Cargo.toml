@@ -1,0 +1,8 @@
+[package]
+name = "projecteuler"
+version = "0.1.0"
+authors = ["T Hartland <>"]
+
+[dependencies]
+time = "*"
+num = "0.1.36"
